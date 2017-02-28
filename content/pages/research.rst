@@ -12,6 +12,7 @@ Research Associate at USFD
 --------------------------
 
 .. image:: /images/logos/usfd-logo.png
+  :alt: Logo of The University of Sheffield
   :align: right 
   :height: 200px
 
