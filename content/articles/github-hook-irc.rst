@@ -152,7 +152,8 @@ Le dernier bloc nous indique l'état du service la dernière fois qu'il fut inte
 
 Si cela vous intéresse, je vous propose dans la prochaine partie de ce billet de voir comment modifier les évènements notifiés par votre nouveau service.
 
-#Gérer la liste des évènements notifiés par GitHub_Bot
+Gérer la liste des évènements notifiés par GitHub_Bot
+-----------------------------------------------------
 
 Pour accéder à la liste des évènements traités pour un dépôt donné, il faut utiliser la commande *curl* suivante :
 
