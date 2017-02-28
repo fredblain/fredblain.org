@@ -1,7 +1,7 @@
 Research Interests
 ==================
 
-:slug: about
+:slug: research
 
 I am interested in Natural Language Processing in general and more specifically:
 
