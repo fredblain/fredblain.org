@@ -1,4 +1,4 @@
 Publications
 ============
 
-.. publications:: content/biblio.bib
+.. publications:: content/papers/biblio.bib
