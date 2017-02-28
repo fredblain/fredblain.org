@@ -16,8 +16,8 @@ Research Associate at USFD
   :align: right 
   :height: 200px
 
-I'm currently a postdoctoral researcher at The University of Sheffield (`USFD`_) in `Lucia Specia`_'s team, and member of the `Sheffield NLP group`_.
-I'm hired on the european project so-called "Quality Translation 21" (`QT21`_) to work on discriminative training and quality estimation of machine translation.
+I am currently a postdoctoral researcher at The University of Sheffield (`USFD`_) in `Lucia Specia`_'s team, and member of the `Sheffield NLP group`_.
+I am hired on the european project so-called "Quality Translation 21" (`QT21`_) to work on discriminative training and quality estimation of machine translation.
 
 .. _USFD: https://www.sheffield.ac.uk/
 .. _Lucia Specia: http://staffwww.dcs.shef.ac.uk/people/L.Specia/
@@ -39,7 +39,7 @@ Past projects
 -------------
 
 Before coming to Sheffield, I did a PhD in Computer Science (2009-2013), followed by a 15-month postdoc at Le Mans University, in France.
-During my two consecutive positions in this university, I've been supervised by `Holger Schwenk`_ now working at Facebook AI Research (`FAIR`_) in Paris.
+During my two consecutive positions in this university, I was supervised by `Holger Schwenk`_ now working at Facebook AI Research (`FAIR`_) in Paris.
 At the same time of my PhD, I was a research engineer at `SYSTRAN`_, under the supervision of `Jean Senellart`_.
 
 .. _Holger Schwenk: https://fr.linkedin.com/pub/holger-schwenk/24/304/b37/fr
