@@ -225,10 +225,12 @@ figure.floatcenter, .align-center {
 /* Tweaks */
 .margin-l30 { margin-left: 30px; }
 .margin-r30 { margin-right: 30px; }
+.margin-t20 { margin-top: 20px; }
 .spacer { margin-bottom: 4ex;}
 .largespacer { margin-bottom: 8ex;}
 
 .contact_links {
+    text-align: center;
 		list-style-type: none;
 		margin-bottom: 50px;
 }
@@ -238,7 +240,7 @@ figure.floatcenter, .align-center {
 }
 .contact_links li i {
 		font-size: 2em;
-		margin-right: 10px;
+		margin-right: 20px;
 		vertical-align: -15%;
 }
 
