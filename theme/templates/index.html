@@ -1,0 +1,99 @@
+{% extends "article_list.html" %}
+
+{% block canonical_rel %}<link rel="canonical" href="{{ SITEURL }}">{% endblock %}
+
+{% block banner %}
+	{% include 'includes/banner.html' %}
+{% endblock %}
+
+{% block content %}
+	<style>
+	/* Disable navbar margin */
+	.navbar {
+		margin-bottom:0;
+	}
+	/* Carousel base class */
+	.carousel {
+		height: 500px;
+		margin-bottom: 60px;
+		padding-top:0;
+	}
+	/* Since positioning the image, we need to help out the caption */
+	.carousel-caption {
+		z-index: 10;
+		text-align: left;
+	}
+	/* Declare heights because of positioning of img element */
+	.carousel .item {
+		height: 500px;
+	}
+
+	.carousel-inner > .item > img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		height: 500px;
+	}
+	.carousel-control.left, .carousel-control.right {
+		background-image: none
+	}
+	.carousel-caption, .carousel-control.left,  .carousel-control.right {
+		color: #333;
+		text-shadow: none;
+	}
+	</style>
+		<div class="col-md-4">
+      <img alt="" class="pull-left img-square margin-r30 margin-b30" src="/images/profile/fredblain.jpg" style="width: 300px;">
+
+    </div>
+		<div class="col-md-8">
+      <h1>Fred BLAIN, PhD</h1>
+      <h3>Researcher in NLP/MT at <a href="https://www.sheffield.ac.uk/" target="_blank">The University of Sheffield</a>, UK</h3>
+
+      <p>Member of the <a href="http://nlp.shef.ac.uk/" target="_blank">Sheffield NLP group</a>, I am a Research Associate in <a href="http://staffwww.dcs.shef.ac.uk/people/L.Specia/" target="_blank">Lucia Specia</a>'s team. 
+      My research area is Machine Translation with a particular interest for discriminative training algorithms, quality estimation and continuous adaptation from post-editing workflow.</p>
+      <p>I am currently funded by an european project named <a href="http://qt21.eu" target="_blank">QT21</a>.
+      I also hold a grant from the Amazon Academic Research Awards (AARA) program, and a grant from the European Association of Machine Translation (<a href="http://www.eamt.org/" target="_blank">EAMT</a>).</p>
+      <p>Before coming to Sheffield, I was a postdoctoral researcher at <a href="http://www.univ-lemans.fr/en" target="_blank">Le Mans University</a> in France (2013-2014), working on <a href="http://www.matecat.com" target="_blank">MateCat</a>.
+      I also worked as a research engineer at Systran (2009-2012) during my PhD that I received from Le Mans University in 2013.
+      I was supervised by <a href="https://fr.linkedin.com/pub/holger-schwenk/24/304/b37/fr" target="_blank"> Holger Schwenk</a> (now at Facebook) and <a href="https://fr.linkedin.com/in/jeansenellart" target="_blank">Jean Senellart</a> (Systran).
+      The topic of my thesis was <cite>Evolutive Translation Models</cite>.
+      </p>
+      <br /> 
+      <ul class=contact_links>
+        <li><a href="https://twitter.com/fblain"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/fredblain"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://uk.linkedin.com/in/fredblain"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li class=mail_address><i class="fa fa-envelope" aria-hidden="true"></i>f.blain [at] sheffield [dot] ac.uk</li>
+      </ul>
+    </div>
+
+    <div class=spacer>&nbsp;</div>
+
+		<div class="col-md-6">
+		<h1>Latest articles</h1>
+
+    {% if articles %}
+        {% for article in dates[:4] %}
+            <p>
+            <span class="categories-timestamp"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></span>
+            <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}{% if article.subtitle %}{% endif %}</a>
+            </p>
+        {% endfor %}
+    {% endif %}
+		</div>
+		<div class="col-md-6">
+			<h1>My work in few words&hellip;</h1>
+      <p><b>Machine Translation is a tool</b> and I do believe that, as for any tool, it has to be <b>useful to its final user</b>. That is what designing a <b>good quality system</b> means. 
+      For this reason, I focus can what could help to make a system better: adaptation to the task, efficient optimisation, evaluation that correlates human judgment, use of user feedback (a.k.a. post-editing)&nbsp;
+      <a class="btn btn-default btn-xs" href="{{ SITEURL }}/pages/about.html">more&hellip;</a></p>
+		</div>
+
+    <div class=spacer>&nbsp;</div>
+
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}
+
