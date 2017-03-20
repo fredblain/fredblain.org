@@ -72,7 +72,7 @@ At the same time of my PhD, I was a research engineer at `SYSTRAN`_, under the s
 
     <a href="https://www.matecat.com/"><b>MateCAT</b></a>  -- (October 2011 - October 2014)
 
-    <p>MateCAT is an open-source european project led by the Bruno Kessler Foundation (<a href="https://www.fbk.eu/en/">FBK</a>), and conducted with the Computer Science laboratory of Le Mans Univeristy (<a href="http://www-lium.univ-lemans.fr/en/content/welcome">LIUM</a>), <a href="http://web.inf.ed.ac.uk/ilcc/research/nlp-cl">The University of Edinburgh</a> and <a href="http://www.translated.net/en/">Translated Srl</a>.
+    <p>MateCAT is an open-source european project led by the Bruno Kessler Foundation (<a href="https://www.fbk.eu/en/">FBK</a>), and conducted with the Computer Science laboratory of Le Mans University (<a href="http://www-lium.univ-lemans.fr/en/content/welcome">LIUM</a>), <a href="http://web.inf.ed.ac.uk/ilcc/research/nlp-cl">The University of Edinburgh</a> and <a href="http://www.translated.net/en/">Translated Srl</a>.
     For professional translators, it aimed at reducing the post-editing cost through the use of an optimized web-based CAT tool.
     To improve the user productivity, the project partners had worked on in-domain adaptation, project adaptation, automatic quality estimation and both online and incremental adaptation from user feedback.
     MateCAT nowadays is used by thousands of professional translators every day to deliver translations in more than 100 languages to 10,000 active customers all over the world.</p>
