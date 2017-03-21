@@ -27,7 +27,7 @@ SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ['images', 'papers']
+STATIC_PATHS = ['images', 'papers', 'static']
 FAVICON = 'images/profile/fredblain.jpg'
 
 # Uncomment following line if you want document-relative URLs when developing

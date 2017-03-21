@@ -106,6 +106,16 @@ Conducted jointly with Systran and the LIUM, my research work in this thesis hav
 This project aimed to provide a collaborative machine translation service for scientific content to the scientific community.
 The collaborative aspect of this service with the possibility for users to review the raw translations have given an application framework for my research.
 
+.. container:: clearfix
+
+  .. raw:: html
+
+    &nbsp;
+
+For more details about my research work, read `my publications`_ and `CV`_.
+
+.. _my publications: publications.html
+.. _CV: /static/docs/cv/FredBlain_CV.pdf 
 
 Contact
 -------
