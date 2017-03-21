@@ -72,10 +72,8 @@ At the same time of my PhD, I was a research engineer at `SYSTRAN`_, under the s
 
     <a href="https://www.matecat.com/"><b>MateCAT</b></a>  -- (October 2011 - October 2014)
 
-    <p>MateCAT is an open-source european project led by the Bruno Kessler Foundation (<a href="https://www.fbk.eu/en/">FBK</a>), and conducted with the Computer Science laboratory of Le Mans University (<a href="http://www-lium.univ-lemans.fr/en/content/welcome">LIUM</a>), <a href="http://web.inf.ed.ac.uk/ilcc/research/nlp-cl">The University of Edinburgh</a> and <a href="http://www.translated.net/en/">Translated Srl</a>.
-    For professional translators, it aimed at reducing the post-editing cost through the use of an optimized web-based CAT tool.
-    To improve the user productivity, the project partners had worked on in-domain adaptation, project adaptation, automatic quality estimation and both online and incremental adaptation from user feedback.
-    MateCAT nowadays is used by thousands of professional translators every day to deliver translations in more than 100 languages to 10,000 active customers all over the world.</p>
+    <p>European project led by the Bruno Kessler Foundation (<a href="https://www.fbk.eu/en/">FBK</a>), and conducted with the Computer Science laboratory of Le Mans Univeristy (<a href="http://www-lium.univ-lemans.fr/en/content/welcome">LIUM</a>), <a href="http://web.inf.ed.ac.uk/ilcc/research/nlp-cl">The University of Edinburgh</a> and <a href="http://www.translated.net/en/">Translated Srl</a>.
+    For professional translators, it aimed at reducing the post-editing cost through the use of an optimized web-based CAT tool. To improve the user’s productivity, the project partners have worked on in-domain adaptation, project adaptation, automatic quality estimation and both online and incremental adaptation from user feedback. MateCAT nowadays is used by thousands of professional translators to deliver translations in more than 100 languages to 10,000 active users all over the world.</p>
 
 .. container:: col-md-6
 
@@ -83,9 +81,9 @@ At the same time of my PhD, I was a research engineer at `SYSTRAN`_, under the s
 
     <a href="http://www.cosmat.fr/"><b>COSMAT</b></a> -- (October 2009 - October 2012)
 
-    <p>Led by the LIUM, working with SYSTRAN and the <a href="https://www.inria.fr/en/">INRIA</a>, the project aimed at providing a collaborative translation service of scientific documents to the scientific community.
-    The result of this project was planned to be hosted on the <a href="https://hal.archives-ouvertes.fr/">HAL</a>, an open archive where authors can deposit scholarly documents from all academic fields.
-    Independently of the characteristics bound to scientific documents (domain adaptation, entities recognition, etc.), the collaborative aspect of this project relied on both translated and reviewed versions of the scientific documents (PhD thesis, article, etc.) which are used to improve the quality of the machine translation system through a post-editing analysis.</p>
+    <p>Led by the LIUM, working with SYSTRAN and the <a href="https://www.inria.fr/en/">INRIA</a>, the project aimed at providing a collaborative translation service of scientific documents to the scientific community. 
+    The result of this project was planned to be hosted on the <a href="https://hal.archives-ouvertes.fr/">HAL</a>, an open archive where authors can deposit scholarly documents from all academic fields. 
+    Independently of the characteristics bound to scientific documents (domain adaptation, entities recognition, etc.), the collaborative aspect of this project relied on both translated and reviewed versions of the scientific documents (PhD thesis, article, etc.) which are used to improve the quality of the machine translation system through an analysis based on post-editing.</p>
 
 .. container:: clearfix
 
