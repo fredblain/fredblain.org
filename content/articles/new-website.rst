@@ -15,9 +15,11 @@ I was already familiar with the 'Pelican & Boostrap 3' combo since we use it wit
 Previously, I was using one of the `HTML5up`_ templates for the website and `HTMLy`_ for the blog, which are free, ligth, responsive and super customizable.
 Now, both website and blog are single entity.
 
-In addition to renew my website, I wanted make my life easier.
-The publication list is automatically created by Pelican, I just have to maintain up-to-date a .bib file with my personal publications, and that's all.
-Hosted on a different server,  it is automatically updated by a crontask which pull the update directly from GH: yes.. the only thing I need to do is to push the modification on GH (e.g. typofix, new publication, new content, etc.) and the update is visible online within the next three hours. What else?
+In addition to renewing my website, I wanted to make my life easier.
+The publication list is automatically created by Pelican, I just have to keep up-to-date a *.bib* file with my personal publications and... that's all.
+Moreover, hosted on a different server than before, it is now automatically updated by a crontask which pull directly the sources from my GH repo and re-compile the all thing.That is perfect for me, I just need to push any modification I make on the GH repo (e.g. typofix, new publication, new content, etc.) and it becomes visible online within the next three hours. 
+
+What else?
 
 In terms of content, all the pages and articles are written in `reST`_ (reStructuredText) which is a beautiful syntax and allows more flexibility to structure the redaction in my opinion.
 
