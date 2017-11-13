@@ -22,7 +22,7 @@ Research Associate at USFD
   :align: right 
   :height: 200px
 
-I currently hold a Research Associate position in `Lucia Specia`_'s team, and work as a member of the `NLP group`_ at The University of Sheffield (`USFD`_), 
+I currently hold a Research Associate position in `Lucia Specia`_'s team, and work as a member of the `NLP group`_ at The University of Sheffield (`USFD`_). 
 I am hired on the european project so-called "Quality Translation 21" (`QT21`_) to work on discriminative training and quality estimation of machine translation.
 
 .. _USFD: https://www.sheffield.ac.uk/
