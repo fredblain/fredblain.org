@@ -35,8 +35,8 @@ It tackles solutions for morphologically riched and under-resourced european lan
 
 In addition to my current funding, I hold two research grants:
 
-- `Amazon AARA`_ 2016, co-written with Lucia Specia *(starting in April 2017)*
-- `EAMT`_ 2016, co-written with Lucia Specia *(starting in April 2017)*
+- `Amazon AARA`_ 2016, primary investigator, co-written with Lucia Specia
+- `EAMT`_ 2016, secondary investigator, co-written with Lucia Specia
 
 .. _Amazon AARA: https://www.mail-archive.com/mt-list@eamt.org/msg02606/AARACall-MT2016.pdf
 .. _EAMT: http://www.eamt.org/
