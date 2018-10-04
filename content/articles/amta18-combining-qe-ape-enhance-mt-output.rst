@@ -5,7 +5,6 @@ Combining Quality Estimation and Automatic Post-editing to Enhance Machine Trans
 
 :date: 2018-03-22 19:23
 :tags: machine translation, automatic post-editing, quality estimation
-:slug: plant-mt-errors-corpus
 :slug: amta18-combining-qe-ape-enhance-mt-output
 :authors: fred 
 
