@@ -16,5 +16,8 @@ We wrote a new paper to report the results of the WMT18 shared task on Quality E
 
 I will be presenting our findings in Brussels this Autumn, November 1st, during `WMT'18`_.
 
+**UPDATE** (13/12/2018) -- The slides of the presentation are now `available online`_.
+
 .. _Read the full paper: https://fredblain.org/papers/pdf/specia_et_al_findings_of_the_wmt_2018_shared_task_on_quality_estimation.pdf 
 .. _WMT'18: http://statmt.org/wmt18/program.html
+.. _available online: https://fredblain.org/papers/pdf/specia_et_al_findings_of_the_wmt_2018_shared_task_on_quality_estimation_slides.pdf
