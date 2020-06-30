@@ -1,13 +1,22 @@
-<ul>
 {% for p in publications %}
-  <li><strong>{% if p.link %}<a href="{{p.link}}">{{p.title}}</a>{% else %}{{p.title}}{% endif %}</strong><br />
-    {% for a_l,a_f in p.author %}{% if a_l == "Blain" %}<b>FB</b>, {% else %}{{a_f}} {{a_l}}, {% endif %}{% endfor %}
-	  {% if p.booktitle %} in <em>{{p.booktitle|replace('{','')|replace('}','')}}</em>.
-		{% else %}
-		  {% if p.journal %} on <em>{{p.journal|replace('{','')|replace('}','')}}</em>.{% endif %}
-		{% endif %}
-		{% if p.year %} {{p.year}}{% endif %}
-	</li>
-  &nbsp;
+<p>
+  {% for a_l,a_f in p.author %}{% if a_l == "Blain" %}<b>FB</b>, {% else %}{{a_f}} {{a_l}}, {% endif %}{% endfor %}
+  {% if p.year %} ({{p.year}}){% endif %}.
+  <strong>{{p.title}}</strong>.
+  In 
+  <i>
+  {% if p.booktitle %} {{p.booktitle|replace('{','')|replace('}','')}}.
+  {% else %}
+  {% if p.journal %} {{p.journal|replace('{','')|replace('}','')}}.{% endif %}
+  {% endif %}
+  </i>
+  {% if p.link or p.bibtex or p.code%}
+  <br />
+  {% if p.link %}[<strong><a href="{{p.link}}">pdf</a></strong>] {% endif%}
+  {% if p.bibtex %}[<strong><a href="{{p.bibtex}}">bib</a></strong>] {% endif%}
+  {% if p.code %}[<strong><a href="{{p.code}}">code</a></strong>] {% endif%}
+  <!-- <div class=spacer></div> -->
+  {% endif %}
+  <br />
+</p>
 {% endfor %}
-</ul>
