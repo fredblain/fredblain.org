@@ -10,11 +10,12 @@
   {% if p.journal %} {{p.journal|replace('{','')|replace('}','')}}.{% endif %}
   {% endif %}
   </i>
-  {% if p.link or p.bibtex or p.code%}
+  {% if p.link or p.bibtex or p.code or p.data %}
   <br />
   {% if p.link %}[<strong><a href="{{p.link}}">pdf</a></strong>] {% endif%}
   {% if p.bibtex %}[<strong><a href="{{p.bibtex}}">bib</a></strong>] {% endif%}
   {% if p.code %}[<strong><a href="{{p.code}}">code</a></strong>] {% endif%}
+  {% if p.data %}[<strong><a href="{{p.data}}">data</a></strong>] {% endif%}
   <!-- <div class=spacer></div> -->
   {% endif %}
   <br />
