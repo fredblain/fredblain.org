@@ -10,6 +10,9 @@ Teaching
     <h3>Current Teaching</h3>
 
     &nbsp;
+    <p>7LN013/UM1 -- Specialised Seminar: Technologies for Translation and Interpreting: Challenges and Latest Developments (module leader)</p>
+    <p>7LN003/UM1 -- Machine Translation (module leader)</p>
+
 
     <h3>Past Teaching</h3>
 
