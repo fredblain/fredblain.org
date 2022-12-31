@@ -1,5 +1,5 @@
-**New position at the University of Wolverhampton!**
-=====================================================
+New position at the University of Wolverhampton!
+================================================
 
 :subtitle: Lecturer in Translation Technology
 
